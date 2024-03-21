@@ -1,9 +1,9 @@
-import { Button } from "@/components/ui/button";
+import General from "@/components/Cards/General";
 
 export default function Home() {
   return (
-    <main>
-      <Button variant="secondary">Button</Button>
-    </main>
+    <div>
+      <General />
+    </div>
   );
 }
